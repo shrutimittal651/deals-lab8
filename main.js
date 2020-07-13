@@ -17,10 +17,10 @@ function load(response)
         let title = document.createElement('h1');
         let image = document.createElement('img');
         let description = document.createElement('p');
-        img.setAttribute('src', 'https://Shrutimittal651.github.io/deals-lab8/images/' + deals[i].image);
+        image.setAttribute('src', 'https://Shrutimittal651.github.io/deals-lab8/images/' + deals[i].image);
         title.textContent = deals[i].name;
         description.textContent = 'At $' + deals[i].price + " With "+deals[i].features;
-        article.appendChild(img);
+        article.appendChild(image);
         article.appendChild(title);
         article.appendChild(description);
         tag.appendChild(article);
